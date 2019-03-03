@@ -9,11 +9,12 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@crud/core@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@crud/core/-/core-2.0.2.tgz#ad91d3f9d06d868819a2144da57d9cf580059eb0"
-  integrity sha512-JVDdfYajYbffhIfOMYajFUuYgC4F6LoICHTDbNG9HCFq360kFShu3w5D+bmAiVm9Wya7aSU2hL4ufh/7tNHTtQ==
+"@crud/core@^2.x":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@crud/core/-/core-2.0.5.tgz#46cc2634a1dcf0e4b130f005d77e55d188fcfdcc"
+  integrity sha512-Rp8i3D0ngeUD5l1Etf/5O99A6MA2Tqb66YlzfNeFRnkfxj9bvhaxPt2eJhb18e5ZDL548F/keHfNMIswkFqAPA==
   dependencies:
+    lodash "^4.x"
     url-search-params "^1.1.0"
 
 "@material-ui/core@^3.9.2":
@@ -92,6 +93,14 @@
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.4.tgz#134307f5266e866d5e7c25e47f31f9abd5b2ea34"
   integrity sha512-Mpz1NNMJvrjf0GcDqiK8+YeOydXfD8Mgag3UtqQ5lXYTsMnOiHcKmO48LiSWMb1rSHB9MV/jlgyNzeAVxWMZRQ==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/react@^16.8.6":
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.6.tgz#fa1de3fe56cc9b6afeddc73d093d7f30fd5e31cc"
+  integrity sha512-bN9qDjEMltmHrl0PZRI4IF2AbB7V5UlRfG+OOduckVnRQ4VzXVSzy/1eLAh778IEqhTnW0mmgL9yShfinNverA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -281,6 +290,11 @@ jss@^9.8.7:
     symbol-observable "^1.1.0"
     warning "^3.0.0"
 
+lodash@^4.x:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
@@ -356,7 +370,7 @@ react-transition-group@^2.2.1:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.8.3:
+react@^16.x:
   version "16.8.3"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.3.tgz#c6f988a2ce895375de216edcfaedd6b9a76451d9"
   integrity sha512-3UoSIsEq8yTJuSu0luO1QQWYbgGEILm+eJl2QN/VLDi7hL+EN18M3q3oVZwmVzzBJ3DkM7RMdRwBmZZ+b4IzSA==
