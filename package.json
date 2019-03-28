@@ -1,6 +1,6 @@
 {
   "name": "@crud/react",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "@crud/core support for react",
   "main": "index.js",
   "scripts": {
@@ -10,19 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/shridharkaushik29/crud-react.git"
   },
-  "dependencies": {
-    "@crud/core": "^2.x",
-    "react": "^16.x"
+  "peerDependencies": {
+    "@crud/core": "^2.1.1"
   },
   "devDependencies": {
+    "@crud/core": "^2.1.4",
+    "@material-ui/core": "^3.9.2",
     "@types/react": "^16.8.6",
-    "typescript": "^3.3.3333",
-    "@material-ui/core": "^3.9.2"
+    "typescript": "^3.3.3333"
   },
   "keywords": [
     "crud",
     "react",
-    "crud"
+    "react-material-crud"
   ],
   "author": "Shridhr Sharma",
   "license": "ISC",
