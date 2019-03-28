@@ -8,5 +8,5 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
-exports.CrudContext = React.createContext(null);
-//# sourceMappingURL=CrudContext.js.map
+var CrudContext = React.createContext(null);
+exports.default = CrudContext;

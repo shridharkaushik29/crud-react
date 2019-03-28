@@ -19,9 +19,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
-var CrudContext_1 = require("./CrudContext");
+var CrudContext_1 = __importDefault(require("./CrudContext"));
 var CrudProvider = /** @class */ (function (_super) {
     __extends(CrudProvider, _super);
     function CrudProvider(props) {
@@ -32,9 +35,8 @@ var CrudProvider = /** @class */ (function (_super) {
         return _this;
     }
     CrudProvider.prototype.render = function () {
-        return React.createElement(CrudContext_1.CrudContext.Provider, { value: this.props.crud }, this.props.children);
+        return React.createElement(CrudContext_1.default.Provider, { value: this.props.crud }, this.props.children);
     };
     return CrudProvider;
 }(React.Component));
-exports.CrudProvider = CrudProvider;
-//# sourceMappingURL=CrudProvider.js.map
+exports.default = CrudProvider;
